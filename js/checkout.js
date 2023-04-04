@@ -20,7 +20,7 @@ cart.insertAdjacentHTML(`beforeend;
 
 }
 
-
-
+// When the user refreshes the home page and select a new item
+Cookies.set("cart", cart, { expires:  });
 
 
